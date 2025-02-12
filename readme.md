@@ -46,7 +46,7 @@ Este projeto pode ser facilmente simulado utilizando a plataforma [Wokwi](https:
 
 ### Link do Vídeo
 
-[Adicione o link do vídeo aqui]
+https://youtu.be/jI8z_L8ibMc
 
 ## Estrutura do Código
 
