@@ -37,6 +37,9 @@ O código está estruturado para realizar os seguintes passos:
 3. **Movimento Suave Contínuo**:
    - O servo realiza uma movimentação contínua, variando o ciclo de pulso de 500µs a 2400µs com um incremento de 5µs a cada 10ms, criando um movimento suave entre 0° e 180° e vice-versa.
 
+### Observação a cerca do LED RGB
+Quando o pino 12 é configurado com uma frequência de PWM de 50Hz, o controle do brilho do LED se torna inadequado, o que resulta em uma percepção visual de brilho mais baixo. 
+
 ### Simulação no Wokwi
 
 Este projeto pode ser facilmente simulado utilizando a plataforma [Wokwi](https://wokwi.com/). A simulação do Raspberry Pi Pico W e do servomotor pode ser realizada diretamente no ambiente do Wokwi, permitindo testar o comportamento do código sem a necessidade de hardware físico.
